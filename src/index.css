@@ -14,3 +14,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* @layer base {
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Roboto.woff2) format('woff2');
+  }
+} */
+
+
+
+.containerr{
+  @apply  sm:px-[2rem] lg:px-[4rem] xl:px-[5rem] 2xl:px-[6rem]
+}
