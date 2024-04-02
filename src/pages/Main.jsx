@@ -7,7 +7,7 @@ import Header from '../components/Header'
 const Main = () => {
   return (
     <div className='w-full h-[100vh]'>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Header/>
     </div>
   )

@@ -3,7 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='bg-[#edf2f8] w-full h-[100vh] '>
-        <div className='flex flex-col max-w-80 items-end gap-10'>
+
+        <div className='flex flex-col max-w-80 items-end gap-10 '>
             <div className='flex w-full max-w-[300px] justify-center  md:gap-12 items-center bg-white rounded-[10px] shadow-lg px-[48px] py-[13px]' >
                 <p className='text-[40px]'>👋</p>
                 <p className='flex flex-col'>
